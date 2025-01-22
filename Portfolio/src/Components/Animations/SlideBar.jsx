@@ -40,7 +40,7 @@ const SlideTabs = () => {
           opacity: 0,
         }));
       }}
-      className="backdrop-blur-lg relative mx-auto flex w-fit rounded-full border-2 border-white  p-[3px] font-fira"
+      className="backdrop-blur-3xl  bg-white/100 relative mx-auto flex w-fit rounded-full border-2 border-white  p-[3px] font-fira"
     >
         
       <Tab setPosition={setPosition} sectionId="About">About</Tab>
